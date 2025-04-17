@@ -1,5 +1,4 @@
 // @ts-nocheck
-import Nofound from '../assets/images/Nofound.jpg'
 import { Button } from './ui/button'
 
 const NotFound=() => {
@@ -8,7 +7,7 @@ const NotFound=() => {
       <div className='flex flex-col justify-center items-center'>
         <div>
           {/* <img src="https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif" alt="" /> */}
-          <img className='w-1/2 mix-blend-multiply m-auto' src={Nofound} alt="" />
+          {/* <img className='w-1/2 mix-blend-multiply m-auto' src={Nofound} alt="" /> */}
         </div>
         <Button variant={"link"} onClick={() => window.history.back()} size={"default"} className=''>
           <small className='text-primary cursor-pointer underline'>Go to Previous Page</small>
